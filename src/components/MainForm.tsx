@@ -9,7 +9,6 @@ interface IUsers {
 
 const MainForm: React.FC<IUsers> = ({ users }) => {
     const [search, setSearch] = useState<string>('')
-
     return (
         <>
             <form className={styles.mainForm}>
@@ -20,7 +19,7 @@ const MainForm: React.FC<IUsers> = ({ users }) => {
                 users.length > 0 ? (
                     <UserList users={users} search={search} />
                 ) : (
-                    <h1>ААА</h1>
+                    <h1>Пользователей нет</h1>
                 )
             }
         </>

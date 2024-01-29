@@ -1,6 +1,6 @@
 table {
     table-layout: fixed;
-    min-width: 90%;
+    min-width: 75%;
     border-collapse: collapse;
     border: 1px solid rgb(128, 97, 252);
     font-size: 20px;
@@ -11,15 +11,17 @@ table img {
     border-radius: 50%;
 }
 
+
 th {
     font-size: 25px;
     background-color: rgb(32, 28, 47);
+    padding: 20px;
 }
 
 th,
 td {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     border: 1px solid rgb(128, 97, 252);
     vertical-align: middle;
 }
@@ -45,10 +47,11 @@ td {
     opacity: 1;
 }
 
-
-
-
-
+h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+}
 
 @media (max-width: 1200px) {
     .wrapper {
