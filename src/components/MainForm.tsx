@@ -14,9 +14,15 @@ const MainForm: React.FC<IUsers> = ({ users }) => {
         <>
             <form className={styles.mainForm}>
                 <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder='Поиск...' type="text" className={styles.formInput} />
-                <button type='reset' className={styles.formButton}>Reset</button>
+                <button type='reset' onClick={() => setSearch('')} className={styles.formButton}>Reset</button>
             </form>
-            <UserList users={users} search={search} />
+            {
+                users.length > 0 ? (
+                    <UserList users={users} search={search} />
+                ) : (
+                    <h1>ААА</h1>
+                )
+            }
         </>
     );
 };

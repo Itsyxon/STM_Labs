@@ -29,7 +29,6 @@ function App() {
       {isLoading ? <Loader /> :
         <>
           <MainForm users={users} />
-          {/* <UserList users={users} /> */}
 
         </>}
     </div>
