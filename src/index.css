@@ -17,4 +17,17 @@ h1 {
     margin-top: 15px;
     font-size: 50px;
     text-transform: uppercase;
+    color: rgb(128, 97, 252);
+}
+
+::-webkit-scrollbar {
+    width: 25px;
+}
+
+::-webkit-scrollbar-track {
+    background: none
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(128, 97, 252)
 }

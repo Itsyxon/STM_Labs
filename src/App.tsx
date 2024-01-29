@@ -20,6 +20,7 @@ function App() {
         setUsers(arr.results)
         setIsLoading(false)
       })
+      .catch((err) => console.log(err))
   }, [])
 
   return (
@@ -27,8 +28,9 @@ function App() {
       <h1>User Base</h1>
       {isLoading ? <Loader /> :
         <>
-          <MainForm />
-          <UserList users={users} />
+          <MainForm users={users} />
+          {/* <UserList users={users} /> */}
+
         </>}
     </div>
   );

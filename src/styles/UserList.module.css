@@ -6,15 +6,52 @@
     width: 30%;
 }
 
-.userCard {
+.card {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 20px 30px;
+    gap: 15px;
+    padding: 20px 10px;
     border: 1px solid rgb(128, 97, 252);
     background-color: rgb(32, 28, 47);
     font-size: 20px;
+    align-items: center;
 }
+
+.card img {
+    border-radius: 50%;
+}
+
+.userName {
+    font-size: 22px;
+}
+
+.avatar {
+    position: relative;
+    cursor: pointer;
+}
+
+.avatar #tooltip {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    transform: translateX(-10%);
+    transition: .3s all
+}
+
+.avatar #tooltip {
+    opacity: 0;
+}
+
+.avatar:hover #tooltip {
+    opacity: 1;
+}
+
+.location {
+    color: rgb(179, 179, 179);
+}
+
+
+
+
 
 @media (max-width: 1200px) {
     .wrapper {
