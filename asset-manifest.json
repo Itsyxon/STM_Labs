@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/STM_Labs/static/css/main.bbc66db0.css",
-    "main.js": "/STM_Labs/static/js/main.44ba7b08.js",
+    "main.css": "/STM_Labs/static/css/main.9ec55499.css",
+    "main.js": "/STM_Labs/static/js/main.5c779bae.js",
     "index.html": "/STM_Labs/index.html",
-    "main.bbc66db0.css.map": "/STM_Labs/static/css/main.bbc66db0.css.map",
-    "main.44ba7b08.js.map": "/STM_Labs/static/js/main.44ba7b08.js.map"
+    "main.9ec55499.css.map": "/STM_Labs/static/css/main.9ec55499.css.map",
+    "main.5c779bae.js.map": "/STM_Labs/static/js/main.5c779bae.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbc66db0.css",
-    "static/js/main.44ba7b08.js"
+    "static/css/main.9ec55499.css",
+    "static/js/main.5c779bae.js"
   ]
 }
