@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/STM_Labs/static/css/main.9ec55499.css",
-    "main.js": "/STM_Labs/static/js/main.5c779bae.js",
+    "main.css": "/STM_Labs/static/css/main.44d3caa9.css",
+    "main.js": "/STM_Labs/static/js/main.de06184d.js",
     "index.html": "/STM_Labs/index.html",
-    "main.9ec55499.css.map": "/STM_Labs/static/css/main.9ec55499.css.map",
-    "main.5c779bae.js.map": "/STM_Labs/static/js/main.5c779bae.js.map"
+    "main.44d3caa9.css.map": "/STM_Labs/static/css/main.44d3caa9.css.map",
+    "main.de06184d.js.map": "/STM_Labs/static/js/main.de06184d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec55499.css",
-    "static/js/main.5c779bae.js"
+    "static/css/main.44d3caa9.css",
+    "static/js/main.de06184d.js"
   ]
 }
