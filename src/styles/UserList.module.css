@@ -4,26 +4,24 @@ table {
     border-collapse: collapse;
     border: 1px solid rgb(128, 97, 252);
     font-size: 20px;
-
 }
 
 table img {
     border-radius: 50%;
 }
 
-
 th {
     font-size: 25px;
     background-color: rgb(32, 28, 47);
-    padding: 20px;
 }
 
 th,
 td {
     text-align: center;
-    padding: 5px;
+    padding: 20px;
     border: 1px solid rgb(128, 97, 252);
     vertical-align: middle;
+
 }
 
 .avatar {

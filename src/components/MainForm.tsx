@@ -19,7 +19,7 @@ const MainForm: React.FC<IUsers> = ({ users }) => {
                 users.length > 0 ? (
                     <UserList users={users} search={search} />
                 ) : (
-                    <h1>Пользователей нет</h1>
+                    <h1>Ошибка загрузки пользователей</h1>
                 )
             }
         </>

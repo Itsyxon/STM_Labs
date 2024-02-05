@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import IUser from '../model/user';
 import styles from '../styles/UserList.module.css'
 
@@ -8,9 +8,11 @@ interface IUsers {
 }
 
 const UserList: React.FC<IUsers> = ({ users, search }) => {
+
     const filterUsers = users.filter((user) => {
-        return user.name.first.toLowerCase().includes(search.toLowerCase())
+        return user.name.first.toLowerCase().includes(search.toLowerCase()) || user.name.last.toLowerCase().includes(search.toLowerCase())
     })
+
     return (
         <>
             <table className={styles.wrapper}>
@@ -25,7 +27,7 @@ const UserList: React.FC<IUsers> = ({ users, search }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {filterUsers.map((user, index) =>
+                    {filterUsers.map((user: any, index: any) =>
                         <tr key={index}>
                             <td><div className={styles.avatar}>
                                 <img id={styles.tooltip} src={`${user.picture.large}`} alt="" />
