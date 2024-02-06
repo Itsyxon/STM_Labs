@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/STM_Labs/static/css/main.33269bf4.css",
-    "main.js": "/STM_Labs/static/js/main.cb0d1c22.js",
+    "main.js": "/STM_Labs/static/js/main.18b73136.js",
     "index.html": "/STM_Labs/index.html",
     "main.33269bf4.css.map": "/STM_Labs/static/css/main.33269bf4.css.map",
-    "main.cb0d1c22.js.map": "/STM_Labs/static/js/main.cb0d1c22.js.map"
+    "main.18b73136.js.map": "/STM_Labs/static/js/main.18b73136.js.map"
   },
   "entrypoints": [
     "static/css/main.33269bf4.css",
-    "static/js/main.cb0d1c22.js"
+    "static/js/main.18b73136.js"
   ]
 }
